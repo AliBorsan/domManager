@@ -30,6 +30,17 @@
     "utility",
     "vanilla-js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliBorsan/domManager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AliBorsan/domManager/issues"
+  },
+  "homepage": "https://github.com/AliBorsan/domManager#readme",
+  "engines": {
+    "node": ">=18"
+  },
   "author": "Ali Borsan",
   "license": "ISC",
   "devDependencies": {
