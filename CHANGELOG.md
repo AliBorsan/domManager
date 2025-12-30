@@ -18,3 +18,8 @@ This project currently documents changes manually.
 - Renamed UMD bundle to `domman.js` and updated docs/tests/demo references
 - Silenced runtime `console.warn/error` output by default (now gated behind `domMan.debugMode`)
 - Improved npm publish hygiene via `files`/`exports` in `package.json`
+
+## 1.0.2 - 2025-12-30
+
+- Updated npm package name to the scoped `@aliborsan/dommanager` (due to npm similarity restrictions)
+- Updated README install instructions for npm + bundlers

@@ -1,6 +1,6 @@
 /**
  * domMan - A lightweight jQuery-like DOM manipulation library
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Ali Borsan
  * Authors Email: aliborsan@gmail.com
  * Licence: ISC
@@ -20,7 +20,7 @@
 })(typeof self !== "undefined" ? self : this, function () {
   "use strict";
 
-  var version = "1.0.1";
+  var version = "1.0.2";
 
   // Private data store
   const elementData = new WeakMap();
