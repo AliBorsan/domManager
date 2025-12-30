@@ -1,0 +1,38 @@
+{
+  "name": "domman",
+  "version": "1.0.1",
+  "description": "domMan (DOM Manager) is a lightweight, chainable DOM utility inspired by jQuery.",
+  "main": "domman.js",
+  "browser": "domman.js",
+  "unpkg": "domman.js",
+  "jsdelivr": "domman.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./domman.js"
+    }
+  },
+  "files": [
+    "domman.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "dom",
+    "dom-manipulation",
+    "jquery",
+    "utility",
+    "vanilla-js"
+  ],
+  "author": "Ali Borsan",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdom": "^27.4.0"
+  }
+}

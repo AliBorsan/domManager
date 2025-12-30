@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usage samples</title>
+    <script src="domman.js"></script>
+</head>
+<body>
+
+    <main>
+        <h1>domMan usage samples</h1>
+
+        <section>
+            <h2>Basics</h2>
+            <div id="box" style="padding:12px; border:1px solid #ccc; margin-bottom:10px;">
+                Box
+            </div>
+            <button id="btn" type="button">Click me</button>
+            <button id="btn-trigger" type="button">Trigger click via domMan</button>
+        </section>
+
+        <section style="margin-top:16px;">
+            <h2>Delegation</h2>
+            <div id="list-root" style="padding:12px; border:1px solid #ccc;">
+                <button class="item" type="button" data-id="1">Item 1</button>
+                <button class="item" type="button" data-id="2">Item 2</button>
+                <button id="add-item" type="button">Add item</button>
+            </div>
+        </section>
+
+        <section style="margin-top:16px;">
+            <h2>Namespaced Events</h2>
+            <div id="ns-root" style="padding:12px; border:1px solid #ccc;">
+                <p style="margin-bottom:8px;">Click inside the &lt;li&gt; to trigger delegated handlers.</p>
+                <ul id="ns-list" style="padding-left:18px;">
+                    <li class="ns-item" data-id="a">Item A <span style="border:1px solid #ddd; padding:2px 6px;">inner</span></li>
+                    <li class="ns-item" data-id="b">Item B <span style="border:1px solid #ddd; padding:2px 6px;">inner</span></li>
+                </ul>
+                <div style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+                    <button id="ns-off-menu" type="button">off('.menu')</button>
+                    <button id="ns-bind-menu" type="button">bind click.menu</button>
+                </div>
+            </div>
+        </section>
+
+        <section style="margin-top:16px;">
+            <h2>Form</h2>
+            <form id="demo-form">
+                <label>
+                    Name
+                    <input name="name" value="Ali" />
+                </label>
+                <label>
+                    Email
+                    <input name="email" value="ali@example.com" />
+                </label>
+                <button id="form-serialize" type="button">Serialize</button>
+            </form>
+        </section>
+
+        <section style="margin-top:16px;">
+            <h2>Traversal &amp; Each</h2>
+            <div id="cards" style="display:flex; gap:8px; flex-wrap:wrap; padding:12px; border:1px solid #ccc;">
+                <div class="card" data-i="1" style="padding:8px; border:1px solid #ddd;">Card 1</div>
+                <div class="card" data-i="2" style="padding:8px; border:1px solid #ddd;">Card 2</div>
+                <div class="card" data-i="3" style="padding:8px; border:1px solid #ddd;">Card 3</div>
+            </div>
+            <button id="run-each" type="button" style="margin-top:8px;">Run find().each()</button>
+        </section>
+
+        <section style="margin-top:16px;">
+            <h2>Animation</h2>
+            <div id="anim-box" style="width:160px; height:44px; display:flex; align-items:center; justify-content:center; border:1px solid #ccc;">
+                Animate me
+            </div>
+            <button id="run-animate" type="button" style="margin-top:8px;">Run animate()</button>
+            <button id="reset-animate" type="button" style="margin-top:8px;">Reset</button>
+        </section>
+
+        <section style="margin-top:16px;">
+            <h2>noConflict</h2>
+            <button id="run-noconflict" type="button">Run noConflict() demo</button>
+            <button id="run-noconflict-deep" type="button">Run noConflict(true) demo</button>
+        </section>
+
+        <section style="margin-top:16px;">
+            <h2>Output</h2>
+            <pre id="out" style="padding:12px; border:1px solid #ccc; white-space:pre-wrap;"></pre>
+        </section>
+    </main>
+
+    <script src="usage-samples.js"></script>
+</body>
+</html>
