@@ -1,5 +1,7 @@
 # domMan
 
+[![npm version](https://img.shields.io/npm/v/%40aliborsan%2Fdommanager.svg)](https://www.npmjs.com/package/@aliborsan/dommanager) [![CI](https://github.com/AliBorsan/domManager/actions/workflows/ci.yml/badge.svg)](https://github.com/AliBorsan/domManager/actions/workflows/ci.yml)
+
 domMan stands for **DOM Manager**.
 
 A lightweight, chainable DOM utility inspired by jQuery.
