@@ -34,6 +34,21 @@ This repo includes automated tests (Node test runner + jsdom) and TypeScript typ
 
 ## Install
 
+### npm
+
+```bash
+npm i @aliborsan/dommanager
+```
+
+Then in a bundler / Node environment:
+
+```js
+import domMan from '@aliborsan/dommanager';
+
+// Optional alias (to match the docs)
+const $d = domMan;
+```
+
 ### Local/dev (this repo)
 
 ```bash
@@ -52,8 +67,6 @@ You get globals:
 
 - `window.$d`
 - `window.domMan`
-
-If you publish to npm later, users would typically install via `npm i dommanager`.
 
 ## Quick start
 
