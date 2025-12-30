@@ -1,5 +1,5 @@
 {
-  "name": "domman",
+  "name": "dommanager",
   "version": "1.0.1",
   "description": "domMan (DOM Manager) is a lightweight, chainable DOM utility inspired by jQuery.",
   "main": "domman.js",

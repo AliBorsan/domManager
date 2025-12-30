@@ -53,7 +53,7 @@ You get globals:
 - `window.$d`
 - `window.domMan`
 
-If you publish to npm later, users would typically install via `npm i domman` (package name TBD).
+If you publish to npm later, users would typically install via `npm i dommanager`.
 
 ## Quick start
 
