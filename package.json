@@ -1,6 +1,6 @@
 {
   "name": "@aliborsan/dommanager",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "domMan (DOM Manager) is a lightweight, chainable DOM utility inspired by jQuery.",
   "main": "domman.js",
   "browser": "domman.js",
