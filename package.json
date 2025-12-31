@@ -44,6 +44,6 @@
   "author": "Ali Borsan",
   "license": "ISC",
   "devDependencies": {
-    "jsdom": "^27.4.0"
+    "jsdom": "^26.1.0"
   }
 }
